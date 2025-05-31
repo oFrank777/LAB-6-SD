@@ -119,7 +119,7 @@ git clone https://github.com/oFrank777/LAB-6-SD.git
 
 ### 🚀 Tree del Proyecto
 
-![Tree](README/tree del proyectoi.png)
+![Tree](img/tree_del_proyectoi.png)
 
 ### 🚀 7. Ejecutar el proyecto
 
