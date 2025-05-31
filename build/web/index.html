@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compras de Productos</title>
+</head>
+<body>
+    <h2>Inicio de Sesion</h2>
+    <h1>Compra tus productos</h1>
+    <form action="CompraServlet" method="post">
+        Usuario: <input type="text" name="usuario"><br>
+        Contrasena: <input type="password" name="contrasena"><br><br>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <th>Producto</th>
+                <th>Precio (S/)</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td>GALLETAS</td>
+                <td>5.00</td>
+                <td><input type="number" name="cantidadA" min="0" value="0"></td>
+            </tr>
+            <tr>
+                <td>PANES</td>
+                <td>15.00</td>
+                <td><input type="number" name="cantidadB" min="0" value="0"></td>
+            </tr>
+            <tr>
+                <td>GASEOSA</td>
+                <td>7.50</td>
+                <td><input type="number" name="cantidadC" min="0" value="0"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Calcular Total">
+    </form>
+</body>
+</html>
